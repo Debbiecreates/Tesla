@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+}
+
+.header{
+    background-image: url(./images/Homepage-Model-Y-Desktop-US-v2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    color: #fff;
+    font-size: 0.875em;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.logo img{
+    width: 100px;
+    color: #fff;
+}
+
+.header h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.header h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.063em;
+    font-weight: 500;
+    color: #fff;
+}
+.blue{
+    background-color: #3E6AE1;
+    color: #fff;
+    border: none;
+    font-size: 0.875em;
+    font-weight: 500;
+    width: 200px;
+    padding: 8px 10px;
+}
+.white{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-size: 0.875em;
+    font-weight: 500;
+    width: 200px;
+    padding: 8px 10px;
+}
+.but{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 600px;
+}
+.header1{
+    background-image: url(./images/Homepage-Model-3-Desktop-US.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.header1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.header1 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.header1 h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.063em;
+    font-weight: 500;
+    color: #fff;
+}
+.header2{
+    background-image: url(./images/Homepage-Model-X-Desktop-US.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.header2 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.header2 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.063em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header2 h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75em;
+    font-weight: 750;
+    color: #fff;
+}
+.header3{
+    background-image: url(./images/Homepage-Model-S-Desktop-US.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.header3 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.header3 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.063em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header3 h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75em;
+    font-weight: 750;
+    color: #fff;
+}
+.header4{
+    background-image: url(./images/Homepage-Cybertruck-Desktop-v3.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.header4 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.header4 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.063em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header4 h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75em;
+    font-weight: 750;
+    color: #fff;
+}
+.header4 .blue{
+    background-color: #000;
+}
+.header4 .white{
+    background-color: #000;
+    color: #fff;
+}
+.header4 .but{
+    /* margin-top: -1px; */
+    /* padding-top: 0px; */
+    position: relative;
+    top: -50px;
+}
+.header5{
+    background-image: url(./images/Homepage-SolarPanels-01-Desktop.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.header5 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.header5 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.header5 h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.063em;
+    font-weight: 500;
+    color: #fff;
+}
+.header6{
+    background-image: url(./images/Homepage-SolarRoof-Desktop-US.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.header6 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.header6 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header6 h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.063em;
+    font-weight: 500;
+    color: #fff;
+}
+.header7{
+    background-image: url(./images/Homepage-Powerwall-Desktop-US.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.header7 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 100px;
+}
+.header8{
+    background-image: url(./images/Homepage-Accessories-Desktop-US.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.header8 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 100px;
+}
+.footer{
+    background-color: #000;
+    color:  #D0D1D2;
+    font-weight: 400;
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 40px;
+}
+.footer a{
+    color:  #fff;
+    font-weight: 400;
+    font-size: 0.75em;
+}
+.footer p{
+    margin-top: 10px;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+.copy a{
+    text-decoration: none;
+    font-size: 0.75em;
+    font-weight: 500;
+    color: #D0D1D2;
+    text-align: center;
+}
